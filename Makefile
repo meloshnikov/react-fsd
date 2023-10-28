@@ -5,8 +5,12 @@ start:
 	npm start
 
 lint:
-	npx eslint . --ext js,jsx
+	npm run lint:ts
+	npm run lint:scss
+
+lint-fix:
+	npm run lint:ts:fix
+	npm run lint:scss:fix
 
 test:
 	npx jest --config ./config/jest/jest.config.ts
-

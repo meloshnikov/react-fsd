@@ -16,6 +16,7 @@ class ErrorBoundary
         this.state = { hasError: false };
     }
 
+    // eslint-disable-next-line @typescript-eslint/no-unused-vars
     static getDerivedStateFromError(error: Error) {
         // Update state so the next render will show the fallback UI.
         return { hasError: true };
@@ -23,6 +24,7 @@ class ErrorBoundary
 
     componentDidCatch(error: Error, errorInfo: ErrorInfo) {
         // You can also log the error to an error reporting service
+        // eslint-disable-next-line no-console
         console.log(error, errorInfo);
     }
 
