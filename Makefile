@@ -4,6 +4,9 @@ install:
 start:
 	npm start
 
+start-mock:
+	npm run start:dev:server
+
 lint:
 	npm run lint:ts
 	npm run lint:scss
