@@ -16,4 +16,7 @@ lint-fix:
 	npm run lint:scss:fix
 
 test:
-	npx jest --config ./config/jest/jest.config.ts
+	npm run test:ui:ci
+
+storybook:
+	npm run storybook:build
