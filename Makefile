@@ -16,7 +16,7 @@ lint-fix:
 	npm run lint:scss:fix
 
 test:
-	npm run test:ui:ci
+	npm run test:unit
 
 storybook:
 	npm run storybook:build
