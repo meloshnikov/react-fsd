@@ -4,8 +4,8 @@ install:
 start:
 	npm start
 
-start-mock:
-	npm run start:dev:server
+start-dev:
+	npm run start:dev
 
 lint:
 	npm run lint:ts

@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
 export type Mods = Record<string, boolean | string | undefined>
 
 export function classNames(
