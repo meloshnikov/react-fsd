@@ -1,5 +1,5 @@
 install: 
-	rm -rf ./node_modules && npm ci
+	rm -rf ./node_modules && npm ci --force
 
 start:
 	npm start
