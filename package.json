@@ -22,7 +22,8 @@
     "test:ui:html": "reg-cli --from .loki/report.json --report .loki/report.html",
     "storybook": "start-storybook -p 6006 -c ./config/storybook",
     "storybook:build": "build-storybook -c ./config/storybook",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "generate:slice": "node ./scripts/createSlice/index.js"
   },
   "keywords": [],
   "author": "",
@@ -72,6 +73,7 @@
     "husky": "^7.0.0",
     "identity-obj-proxy": "^3.0.0",
     "jest": "^27.5.1",
+    "jest-html-reporters": "^3.0.10",
     "json-server": "^0.17.0",
     "loki": "^0.28.1",
     "mini-css-extract-plugin": "^2.5.3",
