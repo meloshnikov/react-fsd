@@ -15,6 +15,8 @@ import { Avatar } from 'shared/ui/Avatar/Avatar';
 import { HStack } from 'shared/ui/Stack';
 import { NotificationButton } from 'features/notificationButton';
 import { AvatarDropdown } from 'features/avatarDropdown';
+import { Drawer } from 'shared/ui/Drawer/Drawer';
+import { NotificationList } from 'entities/Notification';
 import cls from './Navbar.module.scss';
 
 interface NavbarProps {
