@@ -3250,6 +3250,16 @@
   "resolved" "https://registry.npmjs.org/@trysound/sax/-/sax-0.2.0.tgz"
   "version" "0.2.0"
 
+"@ts-morph/common@~0.17.0":
+  "integrity" "sha512-RMSSvSfs9kb0VzkvQ2NWobwnj7TxCA9vI/IjR9bDHqgAyVbu2T0DN4wiKVqomyDWqO7dPr/tErSfq7urQ1Q37g=="
+  "resolved" "https://registry.npmjs.org/@ts-morph/common/-/common-0.17.0.tgz"
+  "version" "0.17.0"
+  dependencies:
+    "fast-glob" "^3.2.11"
+    "minimatch" "^5.1.0"
+    "mkdirp" "^1.0.4"
+    "path-browserify" "^1.0.1"
+
 "@tsconfig/node10@^1.0.7":
   "integrity" "sha512-6XFfSQmMgq0CFLY1MslA/CPUfhIL919M1rMsa5lP2P097N2Wd1sSX0tx1u4olM16fLNhtHZpRhedZJphNJqmZg=="
   "resolved" "https://registry.npmjs.org/@tsconfig/node10/-/node10-1.0.8.tgz"
@@ -5114,6 +5124,13 @@
     "balanced-match" "^1.0.0"
     "concat-map" "0.0.1"
 
+"brace-expansion@^2.0.1":
+  "integrity" "sha512-XnAIvQ8eM+kC6aULx6wuQiwVsnzsi9d3WxzV3FpWTGA19F621kwdbsAcFKXgKUHZWsy+mY6iL1sHTxWEFCytDA=="
+  "resolved" "https://registry.npmjs.org/brace-expansion/-/brace-expansion-2.0.1.tgz"
+  "version" "2.0.1"
+  dependencies:
+    "balanced-match" "^1.0.0"
+
 "braces@^2.3.1", "braces@^2.3.2":
   "integrity" "sha512-aNdbnj9P8PjdXU4ybaWLK2IF3jc/EoDYbC7AazW6to3TRsfXxscC9UXOB5iDiEQrkyIbWp2SLQda4+QAa7nc3w=="
   "resolved" "https://registry.npmjs.org/braces/-/braces-2.3.2.tgz"
@@ -5714,6 +5731,11 @@
   "integrity" "sha1-bqa989hTrlTMuOR7+gvz+QMfsYQ="
   "resolved" "https://registry.npmjs.org/co/-/co-4.6.0.tgz"
   "version" "4.6.0"
+
+"code-block-writer@^11.0.3":
+  "integrity" "sha512-NiujjUFB4SwScJq2bwbYUtXbZhBSlY6vYzm++3Q6oC+U+injTqfPYFK8wS9COOmb2lueqp0ZRB4nK1VYeHgNyw=="
+  "resolved" "https://registry.npmjs.org/code-block-writer/-/code-block-writer-11.0.3.tgz"
+  "version" "11.0.3"
 
 "code-excerpt@^3.0.0":
   "integrity" "sha512-VHNTVhd7KsLGOqfX3SyeO8RyYPMp1GJOg194VITk04WMYCv4plV68YWe6TJZxd9MhobjtpMRnVky01gqZsalaw=="
@@ -10850,6 +10872,13 @@
   dependencies:
     "brace-expansion" "^1.1.7"
 
+"minimatch@^5.1.0":
+  "integrity" "sha512-9TPBGGak4nHfGZsPBohm9AWg6NoT7QTCehS3BIJABslyZbzxfV78QM2Y6+i741OPZIafFAaiiEMh5OyIrJPgtg=="
+  "resolved" "https://registry.npmjs.org/minimatch/-/minimatch-5.1.0.tgz"
+  "version" "5.1.0"
+  dependencies:
+    "brace-expansion" "^2.0.1"
+
 "minimist-options@4.1.0":
   "integrity" "sha512-Q4r8ghd80yhO/0j1O3B2BjweX3fiHg9cdOwjJd2J76Q135c+NDxGCqdYKQ1SKBuFfgWbAUzBfvYjPUEeNgqN1A=="
   "resolved" "https://registry.npmjs.org/minimist-options/-/minimist-options-4.1.0.tgz"
@@ -14668,6 +14697,14 @@
     "enhanced-resolve" "^5.0.0"
     "micromatch" "^4.0.0"
     "semver" "^7.3.4"
+
+"ts-morph@^16.0.0":
+  "integrity" "sha512-jGNF0GVpFj0orFw55LTsQxVYEUOCWBAbR5Ls7fTYE5pQsbW18ssTb/6UXx/GYAEjS+DQTp8VoTw0vqYMiaaQuw=="
+  "resolved" "https://registry.npmjs.org/ts-morph/-/ts-morph-16.0.0.tgz"
+  "version" "16.0.0"
+  dependencies:
+    "@ts-morph/common" "~0.17.0"
+    "code-block-writer" "^11.0.3"
 
 "ts-node@^10.5.0", "ts-node@>=9.0.0":
   "integrity" "sha512-6kEJKwVxAJ35W4akuiysfKwKmjkbYxwQMTBaAxo9KKAx/Yd26mPUyhGz3ji+EsJoAgrLqVsYHNuuYwQe22lbtw=="
