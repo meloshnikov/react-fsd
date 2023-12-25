@@ -1,18 +1,18 @@
 import React from 'react';
 import { ComponentMeta, ComponentStory } from '@storybook/react';
 import { ThemeDecorator } from '@/shared/config/storybook/ThemeDecorator/ThemeDecorator';
-import { NotFoundPage } from './NotFoundPage';
+import { ThemeSwitcher } from './ThemeSwitcher';
 import { Theme } from '@/shared/const/theme';
 
 export default {
-    title: 'pages/NotFoundPage',
-    component: NotFoundPage,
+    title: 'widgets/ThemeSwitcher',
+    component: ThemeSwitcher,
     argTypes: {
         backgroundColor: { control: 'color' },
     },
-} as ComponentMeta<typeof NotFoundPage>;
+} as ComponentMeta<typeof ThemeSwitcher>;
 
-const Template: ComponentStory<typeof NotFoundPage> = (args) => <NotFoundPage {...args} />;
+const Template: ComponentStory<typeof ThemeSwitcher> = (args) => <ThemeSwitcher {...args} />;
 
 export const Normal = Template.bind({});
 Normal.args = {};
