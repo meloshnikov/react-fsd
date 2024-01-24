@@ -17,6 +17,7 @@ lint-fix:
 
 test:
 	npm run test:unit
+	npm run test:ui
 
 storybook:
 	npm run storybook:build

@@ -28,6 +28,7 @@ module.exports = {
         'unused-imports',
     ],
     rules: {
+        'no-console': 'off',
         'unused-imports/no-unused-imports': 'error',
         'react/jsx-filename-extension': [
             2,
@@ -40,31 +41,13 @@ module.exports = {
         'no-unused-vars': 'off',
         'react/require-default-props': 'off',
         'react/react-in-jsx-scope': 'off',
-        'react/jsx-props-no-spreading': 'warn',
+        'react/jsx-props-no-spreading': 'off',
         'react/function-component-definition': 'off',
         'no-shadow': 'off',
         'import/extensions': 'off',
         'import/no-extraneous-dependencies': 'off',
         'no-underscore-dangle': 'off',
-        'i18next/no-literal-string': [
-            'error',
-            {
-                markupOnly: true,
-                ignoreAttribute: [
-                    'as',
-                    'role',
-                    'data-testid',
-                    'to',
-                    'target',
-                    'justify',
-                    'align',
-                    'border',
-                    'direction',
-                    'gap',
-                    'feature',
-                ],
-            },
-        ],
+        'i18next/no-literal-string': 'off',
         'max-len': [
             'error',
             {

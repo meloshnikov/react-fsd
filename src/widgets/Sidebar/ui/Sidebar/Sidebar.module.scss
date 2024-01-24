@@ -43,7 +43,6 @@
     }
 }
 
-
 .SidebarRedesigned {
     background: var(--light-bg-redesigned);
     width: 220px;
@@ -96,10 +95,5 @@
 
     .collapseBtn {
         transform: rotate(-90deg);
-    }
-
-    .switchers {
-        flex-direction: column;
-        align-items: center;
     }
 }
